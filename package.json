@@ -1,0 +1,10 @@
+{
+  "name": "@clearleft/eslint-config-clearleft",
+  "version": "0.1.0",
+  "description": "ESLint configuration to be shared across all Clearleft repositories",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
