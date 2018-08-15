@@ -8,7 +8,7 @@ This package is an [ESLint shareable config](http://eslint.org/docs/developer-gu
 
 ```
 "xo": {
-  "extends": "https://github.com/clearleft/eslint-config-clearleft/"
+  "extends": "@clearleft/eslint-config-clearleft"
 }
 ```
 
@@ -21,7 +21,7 @@ To use with `xo`, pass the repo name to the the [`extends`](https://github.com/s
   ...
   },
   "xo": {
-    "extends": "https://github.com/clearleft/eslint-config-clearleft/"
+    "extends": "@clearleft/eslint-config-clearleft"
   }
 }
 ```
