@@ -4,6 +4,7 @@ module.exports = {
     es6: true,
     mocha: true
   },
+  space: true,
   prettier: true,
   rules: {
     "indent": ["error", 2],
