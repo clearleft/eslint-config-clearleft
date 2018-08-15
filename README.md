@@ -1,6 +1,8 @@
 # eslint-config-clearleft
 
-ESLint configuration to be shared across all Clearleft repositories.
+ESLint configuration to be shared across all Fractal repositories.
+
+[![NPM Version](https://img.shields.io/npm/v/@clearleft/eslint-config-clearleft.svg?style=flat-square)](https://www.npmjs.com/package/@clearleft/eslint-config-clearleft)
 
 ## Overview
 
@@ -12,13 +14,23 @@ This package is an [ESLint shareable config](http://eslint.org/docs/developer-gu
 }
 ```
 
+## Installation
+
+Installation is via [npm](https://www.npmjs.com/).
+
+`npm i @clearleft/eslint-config-clearleft`
+
+
 ## Usage
-To use with `xo`, pass the repo name to the the [`extends`](https://github.com/sindresorhus/xo#extends) option in `package.json`:
+To use with `xo`, first ensure the package has been installed (see above) and then pass the package name to the the [`extends`](https://github.com/sindresorhus/xo#extends) option in `package.json`:
 
 ```
 {
   "name": "repo-name",
   ...
+  },
+  "devDependencies": {
+    "@clearleft/eslint-config-clearleft": "0.1.0"
   },
   "xo": {
     "extends": "@clearleft/eslint-config-clearleft"
