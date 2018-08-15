@@ -1,6 +1,6 @@
 {
   "name": "@clearleft/eslint-config-clearleft",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint configuration to be shared across all Clearleft repositories",
   "main": "index.js",
   "publishConfig": {
